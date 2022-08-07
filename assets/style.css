@@ -7,16 +7,17 @@
 .header {
     color: white;
     background-color: rgb(38, 40, 149);
+    background-image: url("https://thumbs.dreamstime.com/b/bright-blue-sky-cloud-banner-218084346.jpg");
     padding: 50px;
     text-align: center;
-    font-size: 50px;;
+    font-size: 50px;
 }
 
 
 .text-box {
     background-color: white;
     width: 20vw;
-    height: 2.5vw;
+    height: 3vw;
     font-size: 20px;
     border-radius: 10px;
     margin-left: 20px;
@@ -44,7 +45,8 @@
 
 .container-large {
     border: solid;
-    margin: 30px
+    margin: 30px;
+    float: right;
 
 }
 
