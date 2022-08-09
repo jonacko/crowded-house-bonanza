@@ -52,7 +52,7 @@ btn.onclick = function () {
     if(inputElement.value === "") {
         alert("Please enter a city");
     } else {
-displayWeather(data);
+        weather.fetchWeather(inputElement.value);
     }
 };
 
