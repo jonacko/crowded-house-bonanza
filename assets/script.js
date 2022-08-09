@@ -54,6 +54,11 @@ btn.onclick = function () {
     }
 };
 
+
+// UV Data
+
+// UV index data using lat & lon: https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=c70e4f8837cdacc1a3def833546dbd21
+
 // 5-day forecast
 
 let fiveDayWeather = {

@@ -17,29 +17,39 @@
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href = "./assets/style.css">
 
-    <main class = "main-container"></div>
 
-    <h1 class = "header">Weather Dashboard</h1>
+    <h1 class = "header"> Weather Dashboard</h1>
+</head>
+    <body>
+      <main>
 
-     <aside class = "data-dashboard">
-    
+<div class ="flex-container">
+      
     <div class="search-container">
         <h2> Search for a city:</h2>
         <input type="text" class = "text-box" id ="citySearch" placeholder = "search for a city">
-    </div>
+  
 
     <p></p>
 
     <button type = "button" class = "search-button" id="search-btn">Search</button>
 
     <p></p>
+    <p></p>
+
+  
 
 <!-- local storage text container -->
 
+Saved searches:
+
+<p></p>
+
     <div class = "storage-container"></div>
 
+  </div>
 
-    <aside class = "container-large" id = "output-area"> 
+    <aside class = "current-container" id = "output-area"> 
 
 
   <h2 class = "city"> Search for a city to display:   
@@ -53,10 +63,14 @@
 
 
   </aside>
+</div>
 
-  <h2>5-Day Forecast</h2>
+</main>
+
+  <!-- <h2>5-Day Forecast</h2> -->
 
   <div class="card-group">
+
 
     <div class="card">
       <div class="card-body">
@@ -134,13 +148,10 @@
     </div>
     
   </div>
-</aside>
-  
-</main>
-</head>
-<body>
-    
 
-    <script src = "assets/script.js"></script>
+  
+
+  
 </body>
+    <script src = "assets/script.js"></script>
 </html>

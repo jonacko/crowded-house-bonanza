@@ -1,21 +1,20 @@
 * {
-    background-color: rgb(200, 245, 245);
     font-family: 'Sen', sans-serif;
-  
+    color: black;
 }
 
 .header {
     color: white;
-    background-color: rgb(38, 40, 149);
-    background-image: url("https://thumbs.dreamstime.com/b/bright-blue-sky-cloud-banner-218084346.jpg");
-    padding: 50px;
+    background-color: grey;
+    background-image: url("https://source.unsplash.com/1800x1200/?weather");
+    padding: 80px;
     text-align: center;
     font-size: 50px;
 }
 
-
 .text-box {
     background-color: white;
+    color: black;
     width: 20vw;
     height: 3vw;
     font-size: 20px;
@@ -39,25 +38,37 @@
 }
 
 .search-button:hover {
-    background-color: aliceblue;
+    background-color: rgb(162, 162, 162);
     cursor: pointer;
 }
 
-.container-large {
+
+.card {
+    background-color: coral;
+    width: 70vw;
+}
+
+.card-group {
+    width: 100vw;
+}
+
+.search-container {
+    background-color: aqua;
     border: solid;
     margin: 30px;
-    float: right;
+    flex: 1;
 
 }
 
-.data-dashboard {
-    display: flex;
-    flex-direction: right;
-    flex-direction: column;
+.current-container {
+    border: solid;
     margin: 30px;
+    flex: 1;
+    background-color: blueviolet;
+
 }
 
-.container-main {
-    display: flex;
-    flex-direction: column;
+.flex-container {
+   display: flex;
+   background-image: url("https://source.unsplash.com/1800x1200/?weather");
 }
