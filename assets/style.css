@@ -1,15 +1,13 @@
 * {
-    font-family: 'Sen', sans-serif;
-    color: black;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;    color: black;
 }
 
 .header {
-    color: white;
-    background-color: grey;
-    background-image: url("https://source.unsplash.com/1800x1200/?weather");
-    padding: 80px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 7vh;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .text-box {
@@ -38,13 +36,13 @@
 }
 
 .search-button:hover {
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(182, 237, 16);
     cursor: pointer;
 }
 
 
 .card {
-    background-color: coral;
+    background-color: rgb(242, 241, 241);
     width: 70vw;
 }
 
@@ -53,18 +51,24 @@
 }
 
 .search-container {
-    background-color: aqua;
-    border: solid;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    border-radius: 10px;
     margin: 30px;
     flex: 1;
+    opacity: 80%;
+    padding: 10px;
 
 }
 
 .current-container {
-    border: solid;
+    border: none;
+    border-radius: 10px;
     margin: 30px;
     flex: 1;
-    background-color: blueviolet;
+    background-color: rgb(217, 217, 217);
+    opacity: 80%;
+    padding: 10px;
 
 }
 
@@ -72,3 +76,7 @@
    display: flex;
    background-image: url("https://source.unsplash.com/1800x1200/?weather");
 }
+
+
+
+
