@@ -77,6 +77,15 @@
    background-image: url("https://source.unsplash.com/1800x1200/?weather");
 }
 
+.uv-index-severe {
+color: red;
+}
 
+.uv-index-moderate {
+    color: orange;
+}
 
+.uv-index-favourable {
+    color: green;
+}
 

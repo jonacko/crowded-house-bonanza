@@ -36,5 +36,3 @@ Please see commented out code for detail of issues/further amendments needed, bu
 - TO DO: 
 
 ## 4. Credits
-- Help linking HTML button id's to JS and declaring variables in JS: https://www.youtube.com/watch?v=riDzcEQbX6k&t=1278s 
-- Help with creating timer functionality: https://www.youtube.com/watch?v=x7WJEmxNlEs# crowded-house-bonanza
