@@ -17,7 +17,6 @@ let weather = {
   },
 
   // console.logs the data from the URL in the console
-
   displayWeather: function(data) {
       console.log(data);
   const { name } = data;
@@ -71,24 +70,14 @@ let fiveDayWeather = {
   
   // this is for the current UVI
 
-  const { uvi } = data.current;
+  const uvi  = data.daily[0].uvi;
   console.log('----------->',uvi);
   document.querySelector (".uv").innerText = "uv index: " + uvi;
+  uviColorChange(uvi);
 
 // TODO: if statement to change UVI value colour - use element.classlist.add - doesn't work
 
-  let uviSafety = (document.getElementsByClassName(uvi));
-let uviColorChange = function () {
-  if (uviSafety.value <= 3) {
-  classlist.add(".uv-index-favourable");
-  if (uviSafety.value > 5) {
-    classlist.add(".uv-index-severe");
-  } else {
-    classlist.add(".uv-index-moderate");
-  }
-   }
-  uviColorChange(uviSafety);
-}
+  // let uviSafety = (document.getElementsByClassName(uvi));
 
 // 5 day forcast - displays data in cards
 // TO DO: add icons to description - commented out - don't work, not sure where to collect this data from
@@ -132,6 +121,17 @@ let uviColorChange = function () {
      document.querySelector ("#wind-5").innerText = "wind speed: " + (data.daily[5].wind_speed) + "km/h";
 };
 
+let uviColorChange = function (uviSafety) {
+  if (uviSafety <= 3) {
+    document.querySelector("#uv").classList.add("uv-index-favourable");
+  }
+  else if (uviSafety > 5) {
+    document.querySelector("#uv").classList.add("uv-index-severe");
+  } else {
+    document.querySelector("#uv").classLSist.add("uv-index-moderate");
+  }
+  // uviColorChange(uviSafety);
+}
  
 // local storage - stores search data
 // TODO: make it so it stores more than one search
