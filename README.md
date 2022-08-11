@@ -1,11 +1,14 @@
 # crowded-house-bonanza
 
-Challenge 6 assignment for BCU Bootcamp due 11-08-22
-Deployed URL: 
+- Challenge 6 assignment for BCU Bootcamp due 11-08-22
+- Deployed URL: 
 
 Image of deployed web page:
 
-[image 1a/b here]
+![image](https://user-images.githubusercontent.com/106882755/184217263-47c532a6-b958-4a71-87d4-8c3f7db2c990.png)
+
+![image](https://user-images.githubusercontent.com/106882755/184217349-64fa99d0-d42a-459a-ade2-287203caf3b6.png)
+
 
 Contents:
 
@@ -18,7 +21,7 @@ Contents:
 
 This project was undertaken as a submission for a Birmingham City Bootcamp assignment, with a brief to create a weather dashboard, displaying both a current and 5-day forecast, using a weather API to collect the data.  The user story and acceptance criteria are below:
 
-[image 2 here]
+![image](https://user-images.githubusercontent.com/106882755/184217458-efbe9283-8bc4-42a4-813a-897bd0f4ffd5.png)
 
 ## 2. Key features:
 
