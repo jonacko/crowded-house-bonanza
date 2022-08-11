@@ -1,7 +1,7 @@
 # crowded-house-bonanza
 
 - Challenge 6 assignment for BCU Bootcamp due 11-08-22
-- Deployed URL: 
+- Deployed URL: https://jonacko.github.io/crowded-house-bonanza/
 
 Image of deployed web page:
 
