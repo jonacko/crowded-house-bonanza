@@ -17,6 +17,7 @@ let weather = {
   },
 
   // console.logs the data from the URL in the console
+
   displayWeather: function(data) {
       console.log(data);
   const { name } = data;
@@ -55,7 +56,9 @@ let fiveDayWeather = {
   fetchFiveDayWeather: function (latitude,longitude) {
       console.log('this is latitude', latitude);
       console.log('this is longitude', longitude);
+
       //this link gives 5 day forecast
+
       fetch("https://api.openweathermap.org/data/2.5/onecall?lat="
        + latitude + "&lon=" + longitude + "&exclude=hourly,minutely,alerts&appid=" + this.apiKey + "&units=metric"
       )
@@ -74,10 +77,6 @@ let fiveDayWeather = {
   console.log('----------->',uvi);
   document.querySelector (".uv").innerText = "uv index: " + uvi;
   uviColorChange(uvi);
-
-// TODO: if statement to change UVI value colour - use element.classlist.add - doesn't work
-
-  // let uviSafety = (document.getElementsByClassName(uvi));
 
 // 5 day forcast - displays data in cards
 // TO DO: add icons to description - commented out - don't work, not sure where to collect this data from
@@ -121,6 +120,8 @@ let fiveDayWeather = {
      document.querySelector ("#wind-5").innerText = "wind speed: " + (data.daily[5].wind_speed) + "km/h";
 };
 
+// displays UVI value in different colours to represent safety level
+
 let uviColorChange = function (uviSafety) {
   if (uviSafety <= 3) {
     document.querySelector("#uv").classList.add("uv-index-favourable");
@@ -130,7 +131,7 @@ let uviColorChange = function (uviSafety) {
   } else {
     document.querySelector("#uv").classLSist.add("uv-index-moderate");
   }
-  // uviColorChange(uviSafety);
+
 }
  
 // local storage - stores search data

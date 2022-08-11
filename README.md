@@ -5,7 +5,7 @@ Deployed URL:
 
 Image of deployed web page:
 
-[image 1 here]
+[image 1a/b here]
 
 Contents:
 
@@ -22,17 +22,25 @@ This project was undertaken as a submission for a Birmingham City Bootcamp assig
 
 ## 2. Key features:
 
-- page styled to create a user-friendly interface, includng random backgroud 'weahter' image generator
+- page styled to create a user-friendly interface, includng random backgroud 'weather' image generator
 - font styled using Google fonts
 - 5-day forecast 'card' display styled using Bootstrap
 - search funtion using API call to find current weather of city
-- local storage used to store previous searches on page
+- local storage used to store previous searches on page (only saves 1 search currently)
 
 
 ## 3. Issues encountered/further amendments
 
 Please see commented out code for detail of issues/further amendments needed, but summary is below:
 
-- TO DO: 
+- TODO: prompt user to enter correct city name if misspelling/search not found - at the moment the page is unresponsive if this happens.
+- TODO: save more than one search to local storage, currently saves only one search at a time.
+- TODO: fix styling to avoid bottom blank space on larger screens.
+- TODO: add icons to 5-day forecast - currently unsure where to get this data from.
+- TODO: optimise for other devices (not in assignment requirements).
 
 ## 4. Credits
+- help with API call for current weather/dashboard: https://www.youtube.com/watch?v=WZNG8UomjSI&t=475
+- help with adding/removing classes: https://www.youtube.com/watch?v=vnNQaKXXJiU
+- background image credits: https://unsplash.com
+- UV safety information: https://www.epa.gov/sunsafety/uv-index-scale-0

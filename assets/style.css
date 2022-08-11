@@ -77,6 +77,8 @@
    background-image: url("https://source.unsplash.com/1800x1200/?weather");
 }
 
+/* UV index classes*/
+
 .uv-index-severe {
 color: red;
 }
